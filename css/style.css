@@ -1,0 +1,27 @@
+/* Universal Selector 
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Rowdies:wght@300&family=Taviraj:ital,wght@1,300&display=swap');
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/*Root
+:root{
+    --primaryColor: red;
+    --secondaryColor: blue;
+    --alternativeColor: white;
+    --borderColor: #836751;
+    font-family:'Alkatra','Rowdies','Taviraj', 'cursive';
+    --homeBg: blue;
+    --landingPage: 5vw 1vw 
+}*/
+/*Logo*/
+#logo {
+    width: 10rem
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
